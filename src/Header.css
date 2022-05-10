@@ -1,0 +1,18 @@
+.header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    z-index:100;
+}
+.header_logo{
+    object-fit:contain;
+    height:100px;
+    background-color: #F54D70;
+}
+.header_icon{
+    padding:20px;
+  
+}
+.header_icon :hover{
+cursor:pointer;
+}
