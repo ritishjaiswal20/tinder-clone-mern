@@ -6,13 +6,15 @@
 }
 .header_logo{
     object-fit:contain;
-    height:100px;
+    height:140px;
     background-color: #F54D70;
 }
 .header_icon{
-    padding:20px;
-  
+    padding:40px;
+    color: white !important;
+    font-size:50px !important;
 }
-.header_icon :hover{
-cursor:pointer;
+.header_icon:hover{
+    cursor:pointer;
+    transform: scale(1.5,1.5);
 }
