@@ -31,7 +31,7 @@ function TinderCards() {
                 onCardLeftScreen={()=>outOfFrame(person.name)}
                >
                    <div className="card" style={{backgroundImage:`url(${person.url})`}} >
-                       <h3 className="cardContent">{person.name}</h3>
+                       {/* <h3 className="cardContent">{person.name}</h3> */}
                    </div>
                </TinderCard>
            ))}
